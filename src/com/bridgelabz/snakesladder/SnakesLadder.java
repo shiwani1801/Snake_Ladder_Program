@@ -1,11 +1,12 @@
 package com.bridgelabz.snakesladder;
 
+import java.util.Random;
+
 public class SnakesLadder {
     public static void main(String[] args) {
-        System.out.println("Welcome to snake simulator program ");
-        int playerPosition=0;
-
-        System.out.println("currunt position is:"+playerPosition);
+        Random random=new Random();
+        int  diceRoll=random.nextInt(1,7);
+        System.out.println("currunt position dice is:"+diceRoll);
 
     }
 }
