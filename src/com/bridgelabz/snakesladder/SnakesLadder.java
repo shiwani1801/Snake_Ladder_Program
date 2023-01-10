@@ -13,7 +13,7 @@ public class SnakesLadder {
             switch (option) {
                 case 0:
                     //no play
-                    System.out.println("no play ,the player stays in the same position");
+                    System.out.println(" no play ,the player stays in the same position");
                     break;
                 case 1:
                     //ladder
@@ -31,7 +31,7 @@ public class SnakesLadder {
                     System.out.println("player move behind:" + diceRoll);
                     System.out.println("player got snake ,player currunt position:" + playerPosition);
                     break;
-            }if(playerPosition==100){
+            }if(playerPosition == 100){
                 System.out.println("player position is="+playerPosition);
 
             }
