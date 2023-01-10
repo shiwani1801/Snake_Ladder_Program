@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class SnakesLadder {
     public static void main(String[] args) {
-        int start_position=0;
-        int player_position=0;
+        int start_position = 0;
+        int player_position = 0;
         Scanner scan = new Scanner(System.in);
-        System.out.println("starting position of player is:"+start_position);
+        System.out.println("starting position of player is:" +start_position);
         Random random=new Random();
         int dice_roll=random.nextInt(1,7);
         System.out.println("roll the die:"+dice_roll);
