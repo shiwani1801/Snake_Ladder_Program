@@ -12,7 +12,7 @@ public class SnakesLadder {
                 switch (option) {
                     case 0:
                         //no play
-                        System.out.println("no play ,the player stays in the same position");
+                        System.out.println(" no play ,the player stays in the same position");
                         break;
                     case 1:
                         //ladder
